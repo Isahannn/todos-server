@@ -1,0 +1,26 @@
+/* NavBar.module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  @apply flex items-center justify-end p-4 border-b-2 border-gray-300; /* Ряд по горизонтали и нижняя полоска, выравнивание по правому краю */
+}
+
+.link {
+  @apply text-xl text-gray-700 mx-4; 
+  position: relative;
+}
+
+.link::before {
+  content: '';
+  @apply absolute left-0 bottom-0 w-full h-1 bg-transparent transition-all duration-300;
+}
+
+.link:hover::before {
+  @apply bg-black;
+}
+
+.linkActive::before {
+  @apply bg-black; 
+}

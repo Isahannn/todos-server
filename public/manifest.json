@@ -1,0 +1,17 @@
+{
+    "name": "todos-server",
+    "short_name": "App",
+    "description": "My application description",
+    "start_url": "",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "",
+        "sizes": "192x192",
+        "type": ""
+      }
+    ]
+  }
+  

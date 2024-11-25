@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@layer components {
+  .w-50 {
+    width: 20%; 
+  }
+  .h-50 {
+    height: 20%; 
+  }
+}
+
+.container {
+  @apply flex flex-col items-center justify-center min-h-screen bg-white text-center;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.avatar {
+  @apply w-50 h-50 rounded-full mb-4;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.greeting {
+  @apply text-3xl font-bold mb-2;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.name {
+  @apply text-2xl text-gray-500 mt-2;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.email,
+.registration {
+  @apply text-xl text-gray-500 mt-1;
+  animation: fadeIn 2.5s ease-in-out;
+}

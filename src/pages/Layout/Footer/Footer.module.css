@@ -1,0 +1,16 @@
+/* Footer.module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  @apply flex justify-between items-center p-4 border-t-2 border-gray-300 w-full; /* Ряд по горизонтали, отступы, верхняя полоска и ширина 100% */
+  background-color: white;
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+}
+
+.footerText {
+  @apply text-gray-500;
+}

@@ -1,0 +1,32 @@
+/* NoteContent.module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noteContent {
+  @apply flex items-center;
+}
+
+.checkbox {
+  @apply mr-4; 
+}
+
+.noteText {
+  @apply flex-grow;
+}
+
+.noteName {
+  @apply font-bold;
+}
+
+.textChecked {
+  @apply line-through text-gray-500;
+}
+
+.noteDescription {
+  @apply text-sm text-gray-600 mb-2;
+}
+
+.noteSeverity {
+  @apply text-xs text-gray-500;
+}

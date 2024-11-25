@@ -1,0 +1,12 @@
+/* DeletePopup.module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.deletePopup {
+  @apply flex justify-end items-center;
+}
+
+.deleteButton {
+  @apply  text-white py-1 px-3 rounded hover:bg-red-600 transition-colors;
+}

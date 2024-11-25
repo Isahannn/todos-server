@@ -1,0 +1,42 @@
+/* NoteItem.module.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noteItem {
+  @apply bg-white p-6 mb-4 border border-gray-300 rounded-md shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col relative text-base;
+}
+
+.noteHeader {
+  @apply flex justify-between items-start w-full mb-4 relative;
+}
+
+.checkbox {
+  @apply mr-4 w-5 h-5; 
+}
+
+.noteDetails {
+  @apply flex-grow overflow-hidden pr-24; 
+}
+
+.noteName {
+  @apply font-bold text-xl break-words; 
+}
+
+.noteDescription {
+  @apply text-base text-gray-600 mb-2 break-words; 
+}
+
+.noteSeverity {
+  @apply text-base text-gray-500; 
+}
+
+.timestamp {
+  @apply text-xs text-black absolute top-2 right-2;
+}
+
+.noteActions {
+  @apply flex justify-center items-center absolute right-2 top-1/2 transform -translate-y-1/2;
+  @apply mr-4; 
+  @apply mt-3
+}

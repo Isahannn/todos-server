@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "52c2",
+      "name": "Isahan",
+      "userName": "email@example.com",
+      "email": "email@example.com",
+      "password": "$2a$10$zNcNwLmYMsCxzc2vSAV2muP9retcHDsfGdVELzbe3YMb90HfvQpF6",
+      "confirmPassword": "12345678Gg*",
+      "phone": "2123414314",
+      "countryCode": "+375",
+      "avatar": "/static/media/UNKNW.3f4232ca261acdafc75b.jpg",
+      "createdAd": "2024-11-23 10:01:28"
+    },
+    {
+      "id": "3c23",
+      "name": "Isahan",
+      "userName": "3123",
+      "email": "email@example.com",
+      "password": "$2a$10$84XIvHrWP3tRcDOpV8nIAOZ1n.AyY/aOaujQjw6y/FscA6ozmUGii",
+      "confirmPassword": "12345678Uu*",
+      "phone": "2123414314",
+      "countryCode": "+375",
+      "avatar": "/static/media/UNKNW.3f4232ca261acdafc75b.jpg",
+      "createdAd": "2024-11-23 10:04:21"
+    }
+  ],
+  "notes": []
+}
