@@ -60,12 +60,12 @@ Ensure you have the following installed:
 
 3. Start the frontend:  
    ```bash  
-   npm run dev  
+   npm start  
    ```  
 
 4. Start the backend (json-server):  
    ```bash  
-   npm run dev:db  
+   npm run start ds:db  
    ```  
 
 5. Open your browser and navigate to `http://localhost:5173`.  
